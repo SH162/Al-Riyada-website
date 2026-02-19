@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" id="html-root">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="شركة الريادة لاستيراد السيارات وقطع غيار السيارات - نوفر لكم أفضل السيارات والقطع الأصلية">
+    <title>شركة الريادة | استيراد السيارات وقطع الغيار</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- ========== Header ========== -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <span class="nav__logo-icon">◆</span>
+                <span data-i18n="brand">شركة الريادة</span>
+            </a>
+            <ul class="nav__menu" id="nav-menu">
+                <li class="nav__menu-actions">
+                    <button class="nav__action-btn nav__action-btn--mobile" id="lang-toggle-mobile" aria-label="تبديل اللغة">
+                        <span class="nav__action-text">EN</span>
+                    </button>
+                    <button class="nav__action-btn nav__action-btn--theme nav__action-btn--mobile" id="theme-toggle-mobile" aria-label="الوضع الداكن">
+                        <span class="theme-icon-sun">☀️</span>
+                        <span class="theme-icon-moon">🌙</span>
+                    </button>
+                </li>
+                <li><a href="#hero" class="nav__link" data-i18n="nav.home">الرئيسية</a></li>
+                <li><a href="#about" class="nav__link" data-i18n="nav.about">من نحن</a></li>
+                <li><a href="#cars" class="nav__link" data-i18n="nav.cars">السيارات</a></li>
+                <li><a href="#parts" class="nav__link" data-i18n="nav.parts">قطع الغيار</a></li>
+                <li><a href="#contact" class="nav__link" data-i18n="nav.contact">تواصل معنا</a></li>
+            </ul>
+            <div class="nav__actions">
+                <button class="nav__action-btn" id="lang-toggle" aria-label="تبديل اللغة" title="English / العربية">
+                    <span class="nav__action-text">EN</span>
+                </button>
+                <button class="nav__action-btn nav__action-btn--theme" id="theme-toggle" aria-label="الوضع الداكن">
+                    <span class="theme-icon-sun">☀️</span>
+                    <span class="theme-icon-moon">🌙</span>
+                </button>
+            </div>
+            <button class="nav__toggle" id="nav-toggle" aria-label="القائمة">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- ========== Hero Section ========== -->
+        <section class="hero" id="hero">
+            <div class="hero__overlay"></div>
+            <div class="hero__content container">
+                <h1 class="hero__title">
+                    <span data-i18n="hero.title1">رائدون في</span>
+                    <span class="hero__highlight" data-i18n="hero.title2">استيراد السيارات</span>
+                    <br><span data-i18n="hero.title3">وقطع الغيار الأصلية</span>
+                </h1>
+                <p class="hero__description" data-i18n="hero.description">
+                    نقدم لكم أفضل السيارات المستوردة وقطع الغيار الأصلية بأسعار منافسة وجودة مضمونة
+                </p>
+                <div class="hero__buttons">
+                    <a href="#cars" class="btn btn--primary" data-i18n="hero.btnCars">استعرض السيارات</a>
+                    <a href="#parts" class="btn btn--outline" data-i18n="hero.btnParts">قطع الغيار</a>
+                </div>
+            </div>
+            <div class="hero__scroll">
+                <a href="#about" class="hero__scroll-link" aria-label="للأسفل">
+                    <span></span>
+                </a>
+            </div>
+        </section>
+
+        <!-- ========== About Section ========== -->
+        <section class="about section" id="about">
+            <div class="container">
+                <div class="section__header">
+                    <span class="section__tag" data-i18n="about.tag">من نحن</span>
+                    <h2 class="section__title" data-i18n="about.title">شركة الريادة .. ثقة وتجربة</h2>
+                </div>
+                <div class="about__grid">
+                    <div class="about__content">
+                        <p class="about__text" data-i18n="about.text">
+                            تأسست شركة الريادة لتكون الخيار الأمثل لكل من يبحث عن الجودة والمصداقية في مجال استيراد السيارات وقطع غيارها. نتعامل مع أفضل الموردين العالميين لضمان حصولك على منتجات أصلية وموثوقة.
+                        </p>
+                        <ul class="about__features">
+                            <li>
+                                <span class="about__feature-icon">✓</span>
+                                <span data-i18n="about.feature1">سنوات من الخبرة في السوق</span>
+                            </li>
+                            <li>
+                                <span class="about__feature-icon">✓</span>
+                                <span data-i18n="about.feature2">ضمان الجودة والصدق في التعامل</span>
+                            </li>
+                            <li>
+                                <span class="about__feature-icon">✓</span>
+                                <span data-i18n="about.feature3">أسعار منافسة وخدمة عملاء متميزة</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="about__image">
+                        <div class="about__image-placeholder">
+                            <span class="about__image-icon">🚗</span>
+                            <p data-i18n="about.company">شركة الريادة</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== Cars Section ========== -->
+        <section class="cars section section--dark" id="cars">
+            <div class="container">
+                <div class="section__header">
+                    <span class="section__tag section__tag--light" data-i18n="cars.tag">خدماتنا</span>
+                    <h2 class="section__title section__title--light" data-i18n="cars.title">استيراد السيارات</h2>
+                    <p class="section__description section__description--light" data-i18n="cars.description">
+                        نوفر تشكيلة واسعة من السيارات المستوردة بأفضل الأسعار والمواصفات
+                    </p>
+                </div>
+                <div class="cars__grid">
+                    <article class="cars__card">
+                        <div class="cars__card-icon">🚙</div>
+                        <h3 data-i18n="cars.sedan">سيارات سيدان</h3>
+                        <p data-i18n="cars.sedanDesc">سيارات عائلية وعملية تناسب جميع الاحتياجات اليومية</p>
+                    </article>
+                    <article class="cars__card">
+                        <div class="cars__card-icon">🚗</div>
+                        <h3 data-i18n="cars.sport">سيارات رياضية</h3>
+                        <p data-i18n="cars.sportDesc">أداء عالٍ وتصميم أنيق للهواة</p>
+                    </article>
+                    <article class="cars__card">
+                        <div class="cars__card-icon">🚐</div>
+                        <h3 data-i18n="cars.suv">سيارات دفع رباعي</h3>
+                        <p data-i18n="cars.suvDesc">SUV و pickup للطرق الوعرة والمغامرات</p>
+                    </article>
+                    <article class="cars__card">
+                        <div class="cars__card-icon">🚐</div>
+                        <h3 data-i18n="cars.van">فانات وباصات</h3>
+                        <p data-i18n="cars.vanDesc">للاستخدام التجاري والنقل</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== Parts Section ========== -->
+        <section class="parts section" id="parts">
+            <div class="container">
+                <div class="section__header">
+                    <span class="section__tag" data-i18n="parts.tag">قطع الغيار</span>
+                    <h2 class="section__title" data-i18n="parts.title">قطع غيار أصلية</h2>
+                    <p class="section__description" data-i18n="parts.description">
+                        نوفر قطع غيار أصلية لجميع أنواع وموديلات السيارات بضمان الجودة
+                    </p>
+                </div>
+                <div class="parts__grid">
+                    <div class="parts__item">
+                        <div class="parts__icon">⚙️</div>
+                        <h3 data-i18n="parts.engine">قطع المحرك</h3>
+                        <p data-i18n="parts.engineDesc">قطع أصلية من أفضل المصانع العالمية</p>
+                    </div>
+                    <div class="parts__item">
+                        <div class="parts__icon">🛞</div>
+                        <h3 data-i18n="parts.suspension">التعليق والعجلات</h3>
+                        <p data-i18n="parts.suspensionDesc">إطارات ومساعدات وقطع التعليق</p>
+                    </div>
+                    <div class="parts__item">
+                        <div class="parts__icon">🔧</div>
+                        <h3 data-i18n="parts.brakes">قطع الفرامل</h3>
+                        <p data-i18n="parts.brakesDesc">طقم فرامل كامل بجودة عالية</p>
+                    </div>
+                    <div class="parts__item">
+                        <div class="parts__icon">💡</div>
+                        <h3 data-i18n="parts.lighting">الإضاءة والكهرباء</h3>
+                        <p data-i18n="parts.lightingDesc">أنوار وقطع كهربائية أصلية</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== Contact Section ========== -->
+        <section class="contact section section--dark" id="contact">
+            <div class="container">
+                <div class="section__header">
+                    <span class="section__tag section__tag--light" data-i18n="contact.tag">تواصل معنا</span>
+                    <h2 class="section__title section__title--light" data-i18n="contact.title">نرحب بتواصلكم</h2>
+                    <p class="section__description section__description--light" data-i18n="contact.description">
+                        للمزيد من المعلومات أو الاستفسار، تواصلوا معنا عبر القنوات التالية
+                    </p>
+                </div>
+                <div class="contact__grid">
+                    <div class="contact__card">
+                        <span class="contact__icon">📍</span>
+                        <h3 data-i18n="contact.address">العنوان</h3>
+                        <p><span data-i18n="contact.addressValue">المملكة العربية السعودية</span><br><span data-i18n="contact.addressCity">مدينة الرياض</span></p>
+                    </div>
+                    <div class="contact__card">
+                        <span class="contact__icon">📞</span>
+                        <h3 data-i18n="contact.phone">الهاتف</h3>
+                        <p>+966 XX XXX XXXX</p>
+                    </div>
+                    <div class="contact__card">
+                        <span class="contact__icon">✉️</span>
+                        <h3 data-i18n="contact.email">البريد الإلكتروني</h3>
+                        <p>info@alriyada.com</p>
+                    </div>
+                    <div class="contact__card">
+                        <span class="contact__icon">🕐</span>
+                        <h3 data-i18n="contact.hours">ساعات العمل</h3>
+                        <p><span data-i18n="contact.hoursValue">الأحد - الخميس</span><br><span data-i18n="contact.hoursTime">9:00 ص - 6:00 م</span></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ========== Footer ========== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__brand">
+                    <span class="footer__logo">◆ <span data-i18n="brand">شركة الريادة</span></span>
+                    <p data-i18n="footer.tagline">رائدون في استيراد السيارات وقطع الغيار الأصلية</p>
+                </div>
+                <div class="footer__links">
+                    <a href="#hero" data-i18n="nav.home">الرئيسية</a>
+                    <a href="#about" data-i18n="nav.about">من نحن</a>
+                    <a href="#cars" data-i18n="nav.cars">السيارات</a>
+                    <a href="#parts" data-i18n="nav.parts">قطع الغيار</a>
+                    <a href="#contact" data-i18n="nav.contact">تواصل معنا</a>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>© 2025 <span data-i18n="brand">شركة الريادة</span>. <span data-i18n="footer.rights">جميع الحقوق محفوظة.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/i18n.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
