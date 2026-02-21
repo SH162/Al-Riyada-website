@@ -12,7 +12,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&family=Inter:wght@400;500;700;800&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
@@ -112,18 +112,17 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="about__image">
-                        <div class="about__image-placeholder">
-                            <span class="about__image-icon">🚗</span>
-                            <p data-i18n="about.company">شركة الريادة</p>
-                        </div>
-                    </div>
+                    <article class="cars__card">
+                        <img src="assets/images/logo/logo.jpg" alt="شعار شركة الريادة" class="logo_card__image">
+
+                        <h1 class="logo_card__company" data-i18n="about.company">شركة الريادة الدولية</h1>
+                    </article>
                 </div>
             </div>
         </section>
 
         <!-- ========== Cars Section ========== -->
-        <section class="cars section section--dark" id="cars">
+        <!-- <section class="cars section section--dark" id="cars">
             <div class="container">
                 <div class="section__header">
                     <span class="section__tag section__tag--light" data-i18n="cars.tag">خدماتنا</span>
@@ -131,63 +130,86 @@
                     <p class="section__description section__description--light" data-i18n="cars.description">
                         نوفر تشكيلة واسعة من السيارات المستوردة بأفضل الأسعار والمواصفات
                     </p>
-                </div>
-                <div class="cars__grid">
-                    <article class="cars__card">
-                        <div class="cars__card-icon">🚙</div>
-                        <h3 data-i18n="cars.sedan">سيارات سيدان</h3>
-                        <p data-i18n="cars.sedanDesc">سيارات عائلية وعملية تناسب جميع الاحتياجات اليومية</p>
-                    </article>
-                    <article class="cars__card">
-                        <div class="cars__card-icon">🚗</div>
-                        <h3 data-i18n="cars.sport">سيارات رياضية</h3>
-                        <p data-i18n="cars.sportDesc">أداء عالٍ وتصميم أنيق للهواة</p>
-                    </article>
-                    <article class="cars__card">
-                        <div class="cars__card-icon">🚐</div>
-                        <h3 data-i18n="cars.suv">سيارات دفع رباعي</h3>
-                        <p data-i18n="cars.suvDesc">SUV و pickup للطرق الوعرة والمغامرات</p>
-                    </article>
-                    <article class="cars__card">
-                        <div class="cars__card-icon">🚐</div>
-                        <h3 data-i18n="cars.van">فانات وباصات</h3>
-                        <p data-i18n="cars.vanDesc">للاستخدام التجاري والنقل</p>
-                    </article>
-                </div>
-            </div>
-        </section>
-
-        <!-- ========== Parts Section ========== -->
-        <section class="parts section" id="parts">
-            <div class="container">
-                <div class="section__header">
-                    <span class="section__tag" data-i18n="parts.tag">قطع الغيار</span>
                     <h2 class="section__title" data-i18n="parts.title">قطع غيار أصلية</h2>
+
                     <p class="section__description" data-i18n="parts.description">
                         نوفر قطع غيار أصلية لجميع أنواع وموديلات السيارات بضمان الجودة
                     </p>
                 </div>
                 <div class="parts__grid">
-                    <div class="parts__item">
-                        <div class="parts__icon">⚙️</div>
-                        <h3 data-i18n="parts.engine">قطع المحرك</h3>
+                    <a href="pages/showroom.html" class="parts__item parts__item--link">
+                        <div class="parts__icon">
+                            <img src="assets/images/logo/showroom.jpg" alt="">
+                        </div>
+                        <h3 data-i18n="parts.engine">معرض الريادة</h3>
+                        <p data-i18n="cars.vanDesc">اكتشف تشكيلتنا المتنوعة من السيارات بأفضل العروض والخدمات.</p>
+                    </a>
+                    <a href="pages/german-parts.html" class="parts__item parts__item--link">
+                        <div class="parts__icon">
+                            <img src="assets/images/logo/grm.jpg" alt="">
+                        </div>
+                        <h3 data-i18n="parts.engine">قطع غيار للسيارات الالمانية</h3>
                         <p data-i18n="parts.engineDesc">قطع أصلية من أفضل المصانع العالمية</p>
-                    </div>
-                    <div class="parts__item">
-                        <div class="parts__icon">🛞</div>
-                        <h3 data-i18n="parts.suspension">التعليق والعجلات</h3>
+                    </a>
+                    <a href="pages/japanese-parts.html" class="parts__item parts__item--link">
+                        <div class="parts__icon">
+                            <img src="assets/images/logo/toyota.jpg" alt="">
+                        </div>
+                        <h3 data-i18n="parts.suspension">قطع غيار للسيارات اليبانية</h3>
                         <p data-i18n="parts.suspensionDesc">إطارات ومساعدات وقطع التعليق</p>
-                    </div>
-                    <div class="parts__item">
-                        <div class="parts__icon">🔧</div>
-                        <h3 data-i18n="parts.brakes">قطع الفرامل</h3>
-                        <p data-i18n="parts.brakesDesc">طقم فرامل كامل بجودة عالية</p>
-                    </div>
-                    <div class="parts__item">
-                        <div class="parts__icon">💡</div>
-                        <h3 data-i18n="parts.lighting">الإضاءة والكهرباء</h3>
-                        <p data-i18n="parts.lightingDesc">أنوار وقطع كهربائية أصلية</p>
-                    </div>
+                    </a>
+                </div>
+
+            </div>
+        </section> -->
+
+        <!-- ========== Parts Section ========== -->
+        <section class="parts section" id="parts">
+            <div class="container">
+                <div class="section__header">
+                    <span class="section__tag section__tag--light" data-i18n="cars.tag">خدماتنا</span>
+                    <h2 class="section__title section__title--light" data-i18n="cars.title">استيراد السيارات</h2>
+                    <p class="section__description section__description--light" data-i18n="cars.description">
+                        نوفر تشكيلة واسعة من السيارات المستوردة بأفضل الأسعار والمواصفات
+                    </p>
+                    <h2 class="section__title" data-i18n="parts.title">قطع غيار أصلية</h2>
+
+                    <p class="section__description" data-i18n="parts.description">
+                        نوفر قطع غيار أصلية لجميع أنواع وموديلات السيارات بضمان الجودة
+                    </p>
+                </div>
+                <div class="parts__grid">
+                    <a href="pages/showroom.html" class="parts__item parts__item--link">
+                        <h3 data-i18n="parts.engine">معرض الريادة الدولية للسيارات</h3>
+                        <br>
+                        <div class="parts__icon">
+                            <img src="assets/images/logo/showroom.jpg" alt="">
+                        </div>
+                        <br>
+                        <p data-i18n="cars.vanDesc">اكتشف تشكيلتنا المتنوعة من السيارات بأفضل العروض والخدمات.</p>
+                    </a>
+                    <a href="pages/german-parts.html" class="parts__item parts__item--link">
+                        <h3 data-i18n="parts.engine">قطع غيار للسيارات الالمانية</h3>
+                        <br>
+                        <div class="parts__icon">
+                            <img src="assets/images/logo/grm.jpg" alt="">
+                        </div>
+                        <br>
+                        <p data-i18n="parts.engineDesc"> نوفر قطع غيار أصلية للسيارات الألمانية (مرسيدس، بي إم دبليو،
+                            فولكس واجن، أودي، وبورشه)
+                            بضمان الجودة</p>
+                    </a>
+                    <a href="pages/japanese-parts.html" class="parts__item parts__item--link">
+                        <h3 data-i18n="parts.suspension">قطع غيار للسيارات اليبانية</h3>
+                        <br>
+                        <div class="parts__icon">
+
+                            <img src="assets/images/logo/toyota.jpg" alt="">
+                        </div>
+                        <br>
+                        <p data-i18n="parts.suspensionDesc"> نوفر قطع غيار أصلية للسيارات تويوتا إطارات
+                            ومساعدات وقطع التعليق وكل ما تحتاجه من أفضل المصانع العالمية</p>
+                    </a>
                 </div>
             </div>
         </section>
@@ -253,8 +275,8 @@
         </div>
     </footer>
 
-    <script src="js/i18n.js"></script>
-    <script src="js/main.js"></script>
+    <script src="assets/js/i18n.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 
 </html>

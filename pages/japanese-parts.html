@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" id="html-root">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="قطع غيار للسيارات اليابانية - شركة الريادة توفر قطع أصلية من أفضل المصانع العالمية">
+    <title>قطع غيار السيارات اليابانية | شركة الريادة</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&family=Inter:wght@400;500;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+
+<body>
+    <!-- ========== Header ========== -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="../index.html" class="nav__logo">
+                <span class="nav__logo-icon">◆</span>
+                <span>شركة الريادة</span>
+            </a>
+            <ul class="nav__menu" id="nav-menu">
+                <li class="nav__menu-actions">
+                    <button class="nav__action-btn nav__action-btn--mobile" id="lang-toggle-mobile"
+                        aria-label="تبديل اللغة">
+                        <span class="nav__action-text">EN</span>
+                    </button>
+                    <button class="nav__action-btn nav__action-btn--theme nav__action-btn--mobile"
+                        id="theme-toggle-mobile" aria-label="الوضع الداكن">
+                        <span class="theme-icon-sun">☀️</span>
+                        <span class="theme-icon-moon">🌙</span>
+                    </button>
+                </li>
+                <li><a href="../index.html#hero" class="nav__link">الرئيسية</a></li>
+                <li><a href="../index.html#about" class="nav__link">من نحن</a></li>
+                <li><a href="../index.html#cars" class="nav__link">السيارات</a></li>
+                <li><a href="../index.html#parts" class="nav__link">قطع الغيار</a></li>
+                <li><a href="../index.html#contact" class="nav__link">تواصل معنا</a></li>
+            </ul>
+            <div class="nav__actions">
+                <button class="nav__action-btn" id="lang-toggle" aria-label="تبديل اللغة">
+                    <span class="nav__action-text">EN</span>
+                </button>
+                <button class="nav__action-btn nav__action-btn--theme" id="theme-toggle" aria-label="الوضع الداكن">
+                    <span class="theme-icon-sun">☀️</span>
+                    <span class="theme-icon-moon">🌙</span>
+                </button>
+            </div>
+            <button class="nav__toggle" id="nav-toggle" aria-label="القائمة">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="section" style="padding-top: 8rem;">
+            <div class="container">
+                <div class="section__header">
+                    <span class="section__tag">قطع الغيار</span>
+                    <h2 class="section__title">قطع غيار للسيارات اليابانية</h2>
+                    <p class="section__description">
+                        نوفر قطع غيار أصلية للسيارات تويوتا إطارات
+                        ومساعدات وقطع التعليق وكل ما تحتاجه من أفضل المصانع العالمية
+                    </p>
+                </div>
+                <div class="about__content" style="max-width: 720px; margin: 0 auto;">
+                    <p class="about__text">
+                        نتعامل مع أفضل الموردين لقطع غيار السيارات اليابانية لنضمن حصولك على منتجات أصلية وموثوقة لجميع
+                        موديلات وماركات السيارات اليابانية.
+                    </p>
+                    <p class="about__text">
+                        للاستفسار أو الطلب، تواصلوا معنا عبر قسم التواصل معنا.
+                    </p>
+                    <a href="../index.html#parts" class="btn btn--primary" style="margin-top: 1rem;">العودة لقطع
+                        الغيار</a>
+                </div>
+                <div class="parts-gallery">
+                    <h3 class="parts-gallery__title">معرض صور قطع غيار السيارات اليابانية</h3>
+                    <div class="parts-gallery__grid" id="japanese-parts-grid">
+                        <!-- سيملأ جافاسكربت هذا العنصر -->
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ========== Footer ========== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__brand">
+                    <span class="footer__logo">◆ شركة الريادة</span>
+                    <p>رائدون في استيراد السيارات وقطع الغيار الأصلية</p>
+                </div>
+                <div class="footer__links">
+                    <a href="../index.html#hero">الرئيسية</a>
+                    <a href="../index.html#about">من نحن</a>
+                    <a href="../index.html#cars">السيارات</a>
+                    <a href="../index.html#parts">قطع الغيار</a>
+                    <a href="../index.html#contact">تواصل معنا</a>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>© 2025 شركة الريادة. جميع الحقوق محفوظة.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../assets/js/gallery.js"></script>
+    <script>
+        renderGallery('#japanese-parts-grid', [
+            "../assets/images/japanes/img1.jpg",
+            "../assets/images/japanes/img2.jpg",
+            "../assets/images/japanes/img3.jpg",
+            "../assets/images/japanes/img4.jpg",
+            "../assets/images/japanes/img5.jpg",
+            "../assets/images/japanes/img6.jpg",
+            "../assets/images/japanes/img7.jpg",
+            "../assets/images/japanes/img8.jpg",
+            "../assets/images/japanes/img9.jpg",
+            "../assets/images/japanes/img10.jpg",
+            "../assets/images/japanes/img11.jpg",
+            "../assets/images/japanes/img12.jpg",
+            "../assets/images/japanes/img13.jpg",
+            "../assets/images/japanes/img14.jpg",
+            "../assets/images/japanes/img15.jpg",
+            "../assets/images/japanes/img16.jpg",
+            "../assets/images/japanes/img17.jpg",
+            "../assets/images/japanes/img18.jpg",
+            "../assets/images/japanes/img19.jpg",
+            "../assets/images/japanes/img20.jpg",
+            "../assets/images/japanes/img21.jpg",
+            "../assets/images/japanes/img22.jpg",
+            "../assets/images/japanes/img23.jpg",
+            "../assets/images/japanes/img24.jpg",
+            "../assets/images/japanes/img25.jpg",
+            "../assets/images/japanes/img26.jpg",
+            "../assets/images/japanes/img27.jpg",
+            "../assets/images/japanes/img28.jpg",
+            "../assets/images/japanes/img29.jpg",
+            "../assets/images/japanes/img30.jpg",
+            "../assets/images/japanes/img31.jpg",
+            "../assets/images/japanes/img32.jpg",
+            "../assets/images/japanes/img33.jpg",
+            "../assets/images/japanes/img34.jpg",
+            "../assets/images/japanes/img35.jpg",
+            "../assets/images/japanes/img36.jpg",
+            "../assets/images/japanes/img37.jpg",
+            "../assets/images/japanes/img38.jpg",
+            "../assets/images/japanes/img39.jpg",
+            "../assets/images/japanes/img40.jpg",
+            "../assets/images/japanes/img41.jpg",
+            "../assets/images/japanes/img42.jpg",
+            "../assets/images/japanes/img43.jpg",
+            "../assets/images/japanes/img44.jpg",
+            "../assets/images/japanes/img45.jpg",
+            "../assets/images/japanes/img46.jpg",
+            "../assets/images/japanes/img47.jpg",
+            "../assets/images/japanes/img48.jpg",
+            "../assets/images/japanes/img49.jpg",
+            "../assets/images/japanes/img50.jpg",
+            "../assets/images/japanes/img51.jpg",
+        ]);
+    </script>
+    <script src="../assets/js/main.js"></script>
+</body>
+
+</html>
